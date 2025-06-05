@@ -8,7 +8,7 @@ body {
     color: #333;
     /* --- NEW BODY BACKGROUND IMAGE STYLES --- */
     background-color: #c3dbc8;; /* Light grey fallback */
-    background-image: url('bg2.jfif');
+    background-image: url('https://img.lovepik.com/bg/20240104/Modern-Green-Hall-Interior-Design-with-Mirrored-Background_2689471_wh860.jpg!/fw/860');
     background-size: cover; /* Ensures the image covers the entire body */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Keeps the background fixed when scrolling */
