@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design Studio - Your Name</title>
+    <link rel="stylesheet" href="int.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'YOUR_GA_TRACKING_ID');
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1><a href="#" id="logo-click">Your Design Studio</a></h1>
+            </div>
+            <ul>
+                <li><a href="#about" class="nav-link" data-ga-category="Navigation" data-ga-action="Click" data-ga-label="About Us">About Us</a></li>
+                <li><a href="#services" class="nav-link" data-ga-category="Navigation" data-ga-action="Click" data-ga-label="Services">Services</a></li>
+                <li><a href="#portfolio" class="nav-link" data-ga-category="Navigation" data-ga-action="Click" data-ga-label="Portfolio">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link" data-ga-category="Navigation" data-ga-action="Click" data-ga-label="Contact Us">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h2>Transforming Spaces, Inspiring Lives</h2>
+                <p>Innovative interior design solutions for homes and businesses.</p>
+                <button class="cta-button" id="explore-services" data-ga-category="Hero Section" data-ga-action="Click" data-ga-label="Explore Services CTA">Explore Our Services</button>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>We are a passionate team of interior designers dedicated to creating beautiful and functional spaces. Our approach combines aesthetics with practicality to deliver personalized designs that reflect your unique style.</p>
+            <button class="learn-more-button" id="learn-more-about" data-ga-category="About Section" data-ga-action="Click" data-ga-label="Learn More About Us">Learn More</button>
+        </section>
+
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item" data-ga-category="Services" data-ga-action="Click" data-ga-label="Residential Design">
+                    <h3>Residential Design</h3>
+                    <p>Creating dream homes with personalized touches.</p>
+                    <button class="service-details-button">View Details</button>
+                </div>
+                <div class="service-item" data-ga-category="Services" data-ga-action="Click" data-ga-label="Commercial Design">
+                    <h3>Commercial Design</h3>
+                    <p>Optimizing business spaces for productivity and aesthetics.</p>
+                    <button class="service-details-button">View Details</button>
+                </div>
+                <div class="service-item" data-ga-category="Services" data-ga-action="Click" data-ga-label="Renovation & Remodeling">
+                    <h3>Renovation & Remodeling</h3>
+                    <p>Breathing new life into existing spaces.</p>
+                    <button class="service-details-button">View Details</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-ga-category="Portfolio" data-ga-action="Click" data-ga-label="Project 1">
+                    <img src="C:\Users\2398092\OneDrive - Cognizant\Pictures\pic 1.jfif" alt="Project 1">
+                    <h3>Modern Apartment</h3>
+                    <p>A sleek and contemporary residential project.</p>
+                    <button class="view-project-button">View Project</button>
+                </div>
+                <div class="portfolio-item" data-ga-category="Portfolio" data-ga-action="Click" data-ga-label="Project 2">
+                    <img src="C:\Users\2398092\OneDrive - Cognizant\Pictures\pic 2.jfif" alt="Project 2">
+                    <h3>Office Space Redesign</h3>
+                    <p>Functional and inspiring commercial interiors.</p>
+                    <button class="view-project-button">View Project</button>
+                </div>
+                <div class="portfolio-item" data-ga-category="Portfolio" data-ga-action="Click" data-ga-label="Project 3">
+                    <img src="C:\Users\2398092\OneDrive - Cognizant\Pictures\pic 3.jfif" alt="Project 3">
+                    <h3>Restaurant Interior</h3>
+                    <p>Creating an inviting ambiance for diners.</p>
+                    <button class="view-project-button">View Project</button>
+                </div>
+            </div>
+            <button class="view-all-portfolio" id="view-all-portfolio" data-ga-category="Portfolio" data-ga-action="Click" data-ga-label="View All Projects">View All Projects</button>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Ready to start your design journey? Get in touch with us!</p>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit" id="submit-contact-form" data-ga-category="Contact Form" data-ga-action="Submit" data-ga-label="Contact Form Submission">Send Message</button>
+            </form>
+            <p>Call us at: <a href="tel:+919876543210" id="phone-number-click" data-ga-category="Contact" data-ga-action="Click" data-ga-label="Phone Number"> +91 98765 43210</a></p>
+            <p>Email: <a href="mailto:info@yourdesignstudio.com" id="email-click" data-ga-category="Contact" data-ga-action="Click" data-ga-label="Email Address">info@yourdesignstudio.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Design Studio. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" id="facebook-click" data-ga-category="Social Media" data-ga-action="Click" data-ga-label="Facebook">Facebook</a> |
+            <a href="#" id="instagram-click" data-ga-category="Social Media" data-ga-action="Click" data-ga-label="Instagram">Instagram</a> |
+            <a href="#" id="linkedin-click" data-ga-category="Social Media" data-ga-action="Click" data-ga-label="LinkedIn">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="int.js"></script>
+</body>
+</html>
