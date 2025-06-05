@@ -8,7 +8,7 @@ body {
     color: #333;
     /* --- NEW BODY BACKGROUND IMAGE STYLES --- */
     background-color: #c3dbc8;; /* Light grey fallback */
-    background-image: url('C:\Users\2398092\OneDrive - Cognizant\Pictures\bg.jfif');
+    background-image: url('bg2.jfif');
     background-size: cover; /* Ensures the image covers the entire body */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Keeps the background fixed when scrolling */
