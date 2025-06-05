@@ -8,7 +8,7 @@ body {
     color: #333;
     /* --- NEW BODY BACKGROUND IMAGE STYLES --- */
     background-color: #c3dbc8;; /* Light grey fallback */
-    background-image: url('https://img.lovepik.com/bg/20240104/Modern-Green-Hall-Interior-Design-with-Mirrored-Background_2689471_wh860.jpg!/fw/860');
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Flovepik.com%2Fimage-361372598%2Fmodern-green-hall-interior-design-with-mirrored-background.html&psig=AOvVaw0ftVpcObGE6VOuAtPY25vF&ust=1749203816565000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMC0_JaC2o0DFQAAAAAdAAAAABAE');
     background-size: cover; /* Ensures the image covers the entire body */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Keeps the background fixed when scrolling */
