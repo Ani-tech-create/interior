@@ -8,7 +8,7 @@ body {
     color: #333;
     /* --- NEW BODY BACKGROUND IMAGE STYLES --- */
     background-color: #c3dbc8;; /* Light grey fallback */
-    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Flovepik.com%2Fimage-361372598%2Fmodern-green-hall-interior-design-with-mirrored-background.html&psig=AOvVaw0ftVpcObGE6VOuAtPY25vF&ust=1749203816565000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMC0_JaC2o0DFQAAAAAdAAAAABAE');
+    background-image: url('https://www.google.com/imgres?q=interior%20designer%20photo&imgurl=https%3A%2F%2Fmedia.designcafe.com%2Fwp-content%2Fuploads%2F2020%2F12%2F09182814%2Finterior-designer-cost-in-india.jpg&imgrefurl=https%3A%2F%2Fwww.designcafe.com%2Fblog%2Fhome-interiors%2Finterior-designer-cost%2F&docid=XqS0YL_QKp5-iM&tbnid=I_JfdwTpe_4CkM&vet=12ahUKEwjIuJ-2nNqNAxXZY_UHHQguEMoQM3oFCIIBEAA..i&w=940&h=564&hcb=2&ved=2ahUKEwjIuJ-2nNqNAxXZY_UHHQguEMoQM3oFCIIBEAA');
     background-size: cover; /* Ensures the image covers the entire body */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Keeps the background fixed when scrolling */
